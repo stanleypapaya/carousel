@@ -1,7 +1,6 @@
-var allButtons = $('#buttons > button')
-
 
 // 1.添加按钮点击事件
+var allButtons = $('#buttons > button')
 for (let i = 0; i < allButtons.length; i++) {
     $(allButtons[i]).on('click', function (e) {
         var index = $(e.currentTarget).index()
