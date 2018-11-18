@@ -1,0 +1,15 @@
+.imgContainer{
+    height: 180px;
+    width: 320px;
+    border: 5px solid grey;
+    overflow: hidden;
+  }
+  
+  .images{
+    display: flex;
+    transition: transform 0.5s;
+  }
+  
+  button.active{
+    color: red;
+  }
